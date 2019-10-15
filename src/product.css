@@ -1,0 +1,115 @@
+body {
+    font-size: 14px;
+    color: #333;
+}
+a {
+    cursor: pointer;
+}
+.container {
+    width:960px;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    width:960px;
+    margin: 0 auto;
+    justify-content: space-between;
+  }
+
+  .product {
+      width: 215px;
+      border: 1px solid #ccc;
+      margin: 10px;
+      position: relative;
+  }
+  .product-info {
+      background-color: #e2e2e2;
+      justify-content: space-between;
+      display: flex;
+  }
+  .product-info div {
+    align-self: center; 
+    text-align: left;
+}
+.product-img {
+    height: 100px;
+    width: 130px;
+    background: #f2f2f2;
+    /* display: flex; */
+    /* justify-content: center; */
+    margin: 0 auto;
+    /* padding: 10px; */
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.product-info p {
+    margin: 0px;
+    padding: 5px;
+}
+
+span.price-strike {
+    color: red;
+    text-decoration: line-through;
+}
+
+span.price-strike span {
+    color: #333;
+}
+
+.product a.discount-ribbon {
+    position: absolute;
+    top: 10px;
+    left: 0px;
+    background: #59bb59;
+    width: 44px;
+    font-size: 12px;
+    color: #fff;
+}
+
+a.add-cart-btn {
+    margin-right: 10px;
+    border: 1px solid #568cdc;
+    padding: 5px;
+    font-size: 12px;
+    color: #568cdc;
+    cursor: pointer;
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+}
+a.go-to-cart-btn {
+    background: #568cdc;
+    color: #fff;
+    padding: 5px;
+    font-size: 12px;
+    border-radius: 4px;
+    cursor: pointer;
+    position: relative;
+    text-decoration: none;
+}
+a.go-to-cart-btn>span {
+    background: #fff;
+    border-radius: 50%;
+    position: absolute;
+    top: -11px;
+    color: #333;
+    right: -9px;
+    /* padding: 5px; */
+    box-shadow: 0px 0px 5px #eee;
+    height: 18px;
+    width: 18px;
+}
+input[type="number"] {
+    width: 30px;
+    padding: 5px;
+}
+
+.cart-summary {
+    border: 1px solid #e2e2e2;
+    text-align: left;
+    padding: 5px;
+}
